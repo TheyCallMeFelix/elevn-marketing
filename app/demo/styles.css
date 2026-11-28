@@ -1,0 +1,111 @@
+.marketing-demo{color-scheme:dark;--bg:#101113;--surface:#1c1d22;--ink:#fff;--muted:#b5b6bd;--line:#34353b;--accent:#ff7849}
+.marketing-demo *{box-sizing:border-box}
+.marketing-demo{scroll-behavior:smooth}
+.marketing-demo{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.marketing-demo a{color:inherit}
+.marketing-demo a:focus-visible,.marketing-demo button:focus-visible,.marketing-demo summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.marketing-demo .wrap{width:min(1160px,calc(100% - 64px));margin:auto}
+.marketing-demo header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}
+.marketing-demo header img{width:125px;display:block}
+.marketing-demo .eyebrow{font-size:11px;letter-spacing:.16em;font-weight:700;color:var(--accent);text-transform:uppercase}
+.marketing-demo main{padding:65px 0 58px}
+.marketing-demo h1{font-size:clamp(42px,6vw,74px);line-height:1.04;letter-spacing:-.06em;margin:20px 0}
+.marketing-demo h1 span{color:var(--accent)}
+.marketing-demo h2{letter-spacing:-.04em;font-size:28px;margin:0 0 12px}
+.marketing-demo p{font-size:16px;line-height:1.65;color:var(--muted);margin:0;max-width:750px}
+.marketing-demo .intro{margin-bottom:38px}
+.marketing-demo .cta{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--bg);border:1px solid var(--accent);border-radius:7px;padding:13px 17px;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer;font-family:inherit}
+.marketing-demo .cta:hover{background:#ff916b}
+.marketing-demo .secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+.marketing-demo .secondary:hover{background:var(--surface);border-color:var(--accent)}
+.marketing-demo .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.marketing-demo .panel{padding:26px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.marketing-demo .panel p{font-size:14px}
+.marketing-demo .panel ul{padding-left:20px;color:var(--muted);font-size:14px;line-height:1.7;margin:20px 0}
+.marketing-demo .panel li::marker{color:var(--accent)}
+.marketing-demo .text-link{display:inline-block;color:var(--accent);font-size:14px;font-weight:600;text-decoration:none;margin-top:20px}
+.marketing-demo .text-link:hover{text-decoration:underline}
+.marketing-demo .section{margin-top:52px}
+.marketing-demo details{border-bottom:1px solid var(--line);padding:20px 0}
+.marketing-demo summary{cursor:pointer;font-weight:600;line-height:1.5}
+.marketing-demo details p{margin-top:13px;font-size:14px}
+.marketing-demo .fine{font-size:12px;margin-top:20px}
+@media(max-width:650px){.marketing-demo .wrap{width:calc(100% - 36px)}
+.marketing-demo main{padding:42px 0}
+.marketing-demo .cards{grid-template-columns:1fr}
+.marketing-demo .panel{padding:22px}
+.marketing-demo header img{width:98px}
+}
+@media(prefers-reduced-motion:reduce){.marketing-demo{scroll-behavior:auto}
+}
+.marketing-demo .e-nav{display:flex;align-items:center;justify-content:flex-end;gap:24px;flex-wrap:wrap;font-size:14px}
+.marketing-demo .e-nav a{color:#b5b6bd;text-decoration:none;font-size:14px!important}
+.marketing-demo .e-nav a:hover,.marketing-demo .e-nav a[aria-current=page]{color:#fff}
+.marketing-demo .e-nav .demo-nav{border:1px solid #ff7849;border-radius:7px;color:#ff7849;padding:9px 12px}
+.marketing-demo .e-footer{border-top:1px solid #34353b;padding:32px 0 26px;display:block;color:#b5b6bd;font-size:12px}
+.marketing-demo .e-foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;margin-bottom:26px}
+.marketing-demo .e-footer img{width:108px;display:block;margin-bottom:13px}
+.marketing-demo .e-footer strong{color:#fff;font-size:13px;display:block;margin-bottom:12px}
+.marketing-demo .e-footer a{display:block;color:#b5b6bd;text-decoration:none;margin:10px 0;font-size:13px}
+.marketing-demo .e-footer a:hover{color:#ff7849}
+.marketing-demo .e-footer p{font-size:13px;line-height:1.6;margin:0;color:#b5b6bd}
+.marketing-demo .e-footer .copyright{padding-top:18px;border-top:1px solid #34353b;font-size:11px;line-height:1.5}
+.marketing-demo .e-footer .legal-label{font-size:11px;line-height:1.5;color:#b5b6bd}
+@media(max-width:720px){.marketing-demo header{height:auto!important;min-height:76px;gap:12px;flex-wrap:wrap;padding:18px 0!important}
+.marketing-demo .e-nav{width:100%;justify-content:space-between;gap:10px}
+.marketing-demo .e-nav a{font-size:12px!important}
+.marketing-demo .e-nav .demo-nav{padding:6px 9px}
+.marketing-demo .e-foot-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.marketing-demo .e-foot-grid>div:first-child{grid-column:1/-1}
+}
+.marketing-demo .demo-shell{background:#1c1d22;border:1px solid #34353b;border-radius:16px;overflow:hidden}
+.marketing-demo .demo-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 22px;border-bottom:1px solid #34353b}
+.marketing-demo .demo-top strong{font-size:14px}
+.marketing-demo .demo-top span{font-size:11px;letter-spacing:.1em;color:#b5b6bd}
+.marketing-demo .demo-layout{display:grid;grid-template-columns:210px minmax(0,1fr);min-height:400px}
+.marketing-demo .demo-side{padding:16px;border-right:1px solid #34353b;display:flex;flex-direction:column;gap:8px}
+.marketing-demo .demo-side button{font:inherit;text-align:left;color:#b5b6bd;font-size:13px;border:1px solid transparent;background:none;border-radius:7px;padding:13px 11px;cursor:pointer}
+.marketing-demo .demo-side button[aria-current=step]{color:#fff;background:#292a30;border-color:#ff7849}
+.marketing-demo .demo-body{padding:30px}
+.marketing-demo .demo-body h2{font-size:30px}
+.marketing-demo .demo-state{border:1px solid #34353b;background:#101113;border-radius:10px;padding:22px;margin-top:25px}
+.marketing-demo .demo-state .line{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #34353b;padding:14px 0;font-size:14px}
+.marketing-demo .demo-state .line:first-child{border:0}
+.marketing-demo .demo-state .line span{color:#b5b6bd}
+.marketing-demo .demo-state .total{font-weight:700;color:#fff}
+.marketing-demo .demo-state .state{color:#ff7849;font-weight:700}
+.marketing-demo .demo-controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.marketing-demo .demo-controls button:disabled{opacity:.5;cursor:default}
+.marketing-demo .demo-body .eyebrow{margin-bottom:12px}
+.marketing-demo .demo-caption{margin-top:14px;font-size:12px}
+@media(max-width:650px){.marketing-demo .demo-layout{grid-template-columns:1fr}
+.marketing-demo .demo-side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-right:0;border-bottom:1px solid #34353b;padding:10px;gap:5px}
+.marketing-demo .demo-side button{padding:10px 7px;font-size:12px}
+.marketing-demo .demo-body{padding:21px}
+.marketing-demo .demo-state{padding:15px}
+.marketing-demo .demo-top{padding:15px}
+.marketing-demo .demo-body h2{font-size:25px}
+}
+.marketing-demo .live-demo{margin-bottom:28px}
+.marketing-demo .e-nav .launch-nav{background:#ff7849;color:#101113;font-weight:750;border-radius:7px;padding:9px 12px}
+.marketing-demo .e-nav .launch-nav:hover{color:#101113;background:#ff9674}
+@media(max-width:760px){.marketing-demo .e-nav .launch-nav{padding:6px 9px}
+}
+.marketing-demo .live-hero{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:center;margin-bottom:72px}
+.marketing-demo .live-hero .intro{margin:0}
+.marketing-demo .live-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.marketing-demo .live-preview-body{padding:26px}
+.marketing-demo .live-preview-body h2{margin-top:12px;font-size:30px}
+.marketing-demo .live-modules{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}
+.marketing-demo .live-modules>div{min-width:0;background:#101113;border:1px solid #34353b;border-radius:9px;padding:16px}
+.marketing-demo .live-modules strong{font-size:14px}
+.marketing-demo .live-modules p{font-size:12px;line-height:1.5;margin-top:6px}
+.marketing-demo .live-note{border-top:1px solid #34353b;margin-top:22px;padding-top:14px;color:#b5b6bd;font-size:12px}
+.marketing-demo .walkthrough-intro{margin-bottom:20px}
+.marketing-demo .walkthrough-intro h2{margin-top:12px}
+@media(max-width:850px){.marketing-demo .live-hero{grid-template-columns:1fr;gap:24px;margin-bottom:48px}
+}
+@media(max-width:480px){.marketing-demo .live-modules{grid-template-columns:1fr}
+.marketing-demo .live-preview-body{padding:20px}
+.marketing-demo .live-actions .cta{width:100%}
+}

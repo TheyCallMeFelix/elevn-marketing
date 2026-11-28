@@ -1,0 +1,5 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@theme { --color-obsidian:#101113; --color-charcoal:#1c1d22; --color-porcelain:#f5f4f0; --color-signal:#ff7849; --color-muted:#b5b6bd; --color-line:#34353b; }
+*{box-sizing:border-box}html{color-scheme:dark;scroll-behavior:smooth}body{margin:0;background:#101113;color:#fff;font-family:Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}button{font:inherit}a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #ff7849;outline-offset:4px}[hidden]{display:none!important}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

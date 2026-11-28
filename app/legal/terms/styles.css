@@ -1,0 +1,75 @@
+.marketing-legal-terms{color-scheme:dark;--bg:#101113;--surface:#1c1d22;--ink:#fff;--muted:#b5b6bd;--line:#34353b;--accent:#ff7849}
+.marketing-legal-terms *{box-sizing:border-box}
+.marketing-legal-terms{scroll-behavior:smooth}
+.marketing-legal-terms{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.marketing-legal-terms a{color:inherit}
+.marketing-legal-terms a:focus-visible,.marketing-legal-terms button:focus-visible,.marketing-legal-terms summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.marketing-legal-terms .wrap{width:min(1160px,calc(100% - 64px));margin:auto}
+.marketing-legal-terms header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}
+.marketing-legal-terms header img{width:125px;display:block}
+.marketing-legal-terms .eyebrow{font-size:11px;letter-spacing:.16em;font-weight:700;color:var(--accent);text-transform:uppercase}
+.marketing-legal-terms main{padding:65px 0 58px}
+.marketing-legal-terms h1{font-size:clamp(42px,6vw,74px);line-height:1.04;letter-spacing:-.06em;margin:20px 0}
+.marketing-legal-terms h1 span{color:var(--accent)}
+.marketing-legal-terms h2{letter-spacing:-.04em;font-size:28px;margin:0 0 12px}
+.marketing-legal-terms p{font-size:16px;line-height:1.65;color:var(--muted);margin:0;max-width:750px}
+.marketing-legal-terms .intro{margin-bottom:38px}
+.marketing-legal-terms .cta{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--bg);border:1px solid var(--accent);border-radius:7px;padding:13px 17px;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer;font-family:inherit}
+.marketing-legal-terms .cta:hover{background:#ff916b}
+.marketing-legal-terms .secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+.marketing-legal-terms .secondary:hover{background:var(--surface);border-color:var(--accent)}
+.marketing-legal-terms .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.marketing-legal-terms .panel{padding:26px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.marketing-legal-terms .panel p{font-size:14px}
+.marketing-legal-terms .panel ul{padding-left:20px;color:var(--muted);font-size:14px;line-height:1.7;margin:20px 0}
+.marketing-legal-terms .panel li::marker{color:var(--accent)}
+.marketing-legal-terms .text-link{display:inline-block;color:var(--accent);font-size:14px;font-weight:600;text-decoration:none;margin-top:20px}
+.marketing-legal-terms .text-link:hover{text-decoration:underline}
+.marketing-legal-terms .section{margin-top:52px}
+.marketing-legal-terms details{border-bottom:1px solid var(--line);padding:20px 0}
+.marketing-legal-terms summary{cursor:pointer;font-weight:600;line-height:1.5}
+.marketing-legal-terms details p{margin-top:13px;font-size:14px}
+.marketing-legal-terms .fine{font-size:12px;margin-top:20px}
+@media(max-width:650px){.marketing-legal-terms .wrap{width:calc(100% - 36px)}
+.marketing-legal-terms main{padding:42px 0}
+.marketing-legal-terms .cards{grid-template-columns:1fr}
+.marketing-legal-terms .panel{padding:22px}
+.marketing-legal-terms header img{width:98px}
+}
+@media(prefers-reduced-motion:reduce){.marketing-legal-terms{scroll-behavior:auto}
+}
+.marketing-legal-terms .e-nav{display:flex;align-items:center;justify-content:flex-end;gap:24px;flex-wrap:wrap;font-size:14px}
+.marketing-legal-terms .e-nav a{color:#b5b6bd;text-decoration:none;font-size:14px!important}
+.marketing-legal-terms .e-nav a:hover,.marketing-legal-terms .e-nav a[aria-current=page]{color:#fff}
+.marketing-legal-terms .e-nav .demo-nav{border:1px solid #ff7849;border-radius:7px;color:#ff7849;padding:9px 12px}
+.marketing-legal-terms .e-footer{border-top:1px solid #34353b;padding:32px 0 26px;display:block;color:#b5b6bd;font-size:12px}
+.marketing-legal-terms .e-foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;margin-bottom:26px}
+.marketing-legal-terms .e-footer img{width:108px;display:block;margin-bottom:13px}
+.marketing-legal-terms .e-footer strong{color:#fff;font-size:13px;display:block;margin-bottom:12px}
+.marketing-legal-terms .e-footer a{display:block;color:#b5b6bd;text-decoration:none;margin:10px 0;font-size:13px}
+.marketing-legal-terms .e-footer a:hover{color:#ff7849}
+.marketing-legal-terms .e-footer p{font-size:13px;line-height:1.6;margin:0;color:#b5b6bd}
+.marketing-legal-terms .e-footer .copyright{padding-top:18px;border-top:1px solid #34353b;font-size:11px;line-height:1.5}
+.marketing-legal-terms .e-footer .legal-label{font-size:11px;line-height:1.5;color:#b5b6bd}
+@media(max-width:720px){.marketing-legal-terms header{height:auto!important;min-height:76px;gap:12px;flex-wrap:wrap;padding:18px 0!important}
+.marketing-legal-terms .e-nav{width:100%;justify-content:space-between;gap:10px}
+.marketing-legal-terms .e-nav a{font-size:12px!important}
+.marketing-legal-terms .e-nav .demo-nav{padding:6px 9px}
+.marketing-legal-terms .e-foot-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.marketing-legal-terms .e-foot-grid>div:first-child{grid-column:1/-1}
+}
+.marketing-legal-terms .legal-main{max-width:820px;margin:0 auto}
+.marketing-legal-terms .legal-main h1{font-size:clamp(40px,6vw,64px)}
+.marketing-legal-terms .legal-main>p{margin-bottom:24px}
+.marketing-legal-terms .legal-main .draft-note{border:1px solid #34353b;border-left:3px solid #ff7849;background:#1c1d22;padding:18px;font-size:14px}
+.marketing-legal-terms .legal-block{padding:25px 0;border-bottom:1px solid #34353b}
+.marketing-legal-terms .legal-block h2{font-size:23px;margin-bottom:12px}
+.marketing-legal-terms .legal-block p,.marketing-legal-terms .legal-block li{font-size:15px;line-height:1.75;color:#b5b6bd}
+.marketing-legal-terms .legal-block p+p{margin-top:12px}
+.marketing-legal-terms .legal-block ul{padding-left:23px}
+.marketing-legal-terms .legal-block a{color:#ff7849}
+.marketing-legal-terms .legal-block b{color:#fff}
+.marketing-legal-terms .e-nav .launch-nav{background:#ff7849;color:#101113;font-weight:750;border-radius:7px;padding:9px 12px}
+.marketing-legal-terms .e-nav .launch-nav:hover{color:#101113;background:#ff9674}
+@media(max-width:760px){.marketing-legal-terms .e-nav .launch-nav{padding:6px 9px}
+}

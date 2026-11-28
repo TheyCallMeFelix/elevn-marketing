@@ -1,0 +1,64 @@
+.marketing-resources{color-scheme:dark;--bg:#101113;--surface:#1c1d22;--ink:#fff;--muted:#b5b6bd;--line:#34353b;--accent:#ff7849}
+.marketing-resources *{box-sizing:border-box}
+.marketing-resources{scroll-behavior:smooth}
+.marketing-resources{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.marketing-resources a{color:inherit}
+.marketing-resources a:focus-visible,.marketing-resources button:focus-visible,.marketing-resources summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.marketing-resources .wrap{width:min(1160px,calc(100% - 64px));margin:auto}
+.marketing-resources header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}
+.marketing-resources header img{width:125px;display:block}
+.marketing-resources .eyebrow{font-size:11px;letter-spacing:.16em;font-weight:700;color:var(--accent);text-transform:uppercase}
+.marketing-resources main{padding:65px 0 58px}
+.marketing-resources h1{font-size:clamp(42px,6vw,74px);line-height:1.04;letter-spacing:-.06em;margin:20px 0}
+.marketing-resources h1 span{color:var(--accent)}
+.marketing-resources h2{letter-spacing:-.04em;font-size:28px;margin:0 0 12px}
+.marketing-resources p{font-size:16px;line-height:1.65;color:var(--muted);margin:0;max-width:750px}
+.marketing-resources .intro{margin-bottom:38px}
+.marketing-resources .cta{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--bg);border:1px solid var(--accent);border-radius:7px;padding:13px 17px;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer;font-family:inherit}
+.marketing-resources .cta:hover{background:#ff916b}
+.marketing-resources .secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+.marketing-resources .secondary:hover{background:var(--surface);border-color:var(--accent)}
+.marketing-resources .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.marketing-resources .panel{padding:26px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.marketing-resources .panel p{font-size:14px}
+.marketing-resources .panel ul{padding-left:20px;color:var(--muted);font-size:14px;line-height:1.7;margin:20px 0}
+.marketing-resources .panel li::marker{color:var(--accent)}
+.marketing-resources .text-link{display:inline-block;color:var(--accent);font-size:14px;font-weight:600;text-decoration:none;margin-top:20px}
+.marketing-resources .text-link:hover{text-decoration:underline}
+.marketing-resources .section{margin-top:52px}
+.marketing-resources details{border-bottom:1px solid var(--line);padding:20px 0}
+.marketing-resources summary{cursor:pointer;font-weight:600;line-height:1.5}
+.marketing-resources details p{margin-top:13px;font-size:14px}
+.marketing-resources .fine{font-size:12px;margin-top:20px}
+@media(max-width:650px){.marketing-resources .wrap{width:calc(100% - 36px)}
+.marketing-resources main{padding:42px 0}
+.marketing-resources .cards{grid-template-columns:1fr}
+.marketing-resources .panel{padding:22px}
+.marketing-resources header img{width:98px}
+}
+@media(prefers-reduced-motion:reduce){.marketing-resources{scroll-behavior:auto}
+}
+.marketing-resources .e-nav{display:flex;align-items:center;justify-content:flex-end;gap:24px;flex-wrap:wrap;font-size:14px}
+.marketing-resources .e-nav a{color:#b5b6bd;text-decoration:none;font-size:14px!important}
+.marketing-resources .e-nav a:hover,.marketing-resources .e-nav a[aria-current=page]{color:#fff}
+.marketing-resources .e-nav .demo-nav{border:1px solid #ff7849;border-radius:7px;color:#ff7849;padding:9px 12px}
+.marketing-resources .e-footer{border-top:1px solid #34353b;padding:32px 0 26px;display:block;color:#b5b6bd;font-size:12px}
+.marketing-resources .e-foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;margin-bottom:26px}
+.marketing-resources .e-footer img{width:108px;display:block;margin-bottom:13px}
+.marketing-resources .e-footer strong{color:#fff;font-size:13px;display:block;margin-bottom:12px}
+.marketing-resources .e-footer a{display:block;color:#b5b6bd;text-decoration:none;margin:10px 0;font-size:13px}
+.marketing-resources .e-footer a:hover{color:#ff7849}
+.marketing-resources .e-footer p{font-size:13px;line-height:1.6;margin:0;color:#b5b6bd}
+.marketing-resources .e-footer .copyright{padding-top:18px;border-top:1px solid #34353b;font-size:11px;line-height:1.5}
+.marketing-resources .e-footer .legal-label{font-size:11px;line-height:1.5;color:#b5b6bd}
+@media(max-width:720px){.marketing-resources header{height:auto!important;min-height:76px;gap:12px;flex-wrap:wrap;padding:18px 0!important}
+.marketing-resources .e-nav{width:100%;justify-content:space-between;gap:10px}
+.marketing-resources .e-nav a{font-size:12px!important}
+.marketing-resources .e-nav .demo-nav{padding:6px 9px}
+.marketing-resources .e-foot-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.marketing-resources .e-foot-grid>div:first-child{grid-column:1/-1}
+}
+.marketing-resources .e-nav .launch-nav{background:#ff7849;color:#101113;font-weight:750;border-radius:7px;padding:9px 12px}
+.marketing-resources .e-nav .launch-nav:hover{color:#101113;background:#ff9674}
+@media(max-width:760px){.marketing-resources .e-nav .launch-nav{padding:6px 9px}
+}
